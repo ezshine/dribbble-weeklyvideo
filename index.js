@@ -6,7 +6,7 @@ import File from 'fetch-blob/file.js'
 import { fileFromSync } from 'fetch-blob/from.js'
 import { FormData } from 'formdata-polyfill/esm.min.js'
 
-const querytype="mobile";
+const querytype="app";
 
 const imgcompress = 1;
 const imgsize = "840x630";
