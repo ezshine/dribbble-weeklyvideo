@@ -6,8 +6,6 @@ import File from 'fetch-blob/file.js'
 import { fileFromSync } from 'fetch-blob/from.js'
 import { FormData } from 'formdata-polyfill/esm.min.js'
 
-const querytype="mobile-app";
-
 const imgcompress = 1;
 const imgsize = "840x630";
 const isDebug = true;
@@ -103,6 +101,10 @@ async function download(url, fileName){
  	})
 }
 
+async function getAll(){
+	await requestDribbblePage("mobile-app",20);
+	await requestDribbblePage("mobile",20);
+	await requestDribbblePage("add",20);
+}
 
-requestDribbblePage(querytype,20);
 
