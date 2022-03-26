@@ -6,7 +6,7 @@ on:
   #push:
   #  branches: [ main ]
   schedule:
-   - cron: '0 0 12 * * SAT'
+   - cron: '0 12 * * SAT'
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
