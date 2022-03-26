@@ -108,3 +108,4 @@ async function getAll(){
 }
 
 
+getAll();
