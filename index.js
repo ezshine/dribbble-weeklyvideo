@@ -102,9 +102,9 @@ async function download(url, fileName){
 }
 
 async function getAll(){
-	await requestDribbblePage("mobile-app",20);
-	await requestDribbblePage("mobile",20);
-	await requestDribbblePage("app",20);
+	await requestDribbblePage("mobile-app",10);
+	await requestDribbblePage("mobile",10);
+	await requestDribbblePage("app",10);
 }
 
 
